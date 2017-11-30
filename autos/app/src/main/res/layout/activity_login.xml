@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    tools:context="ec.ricardo.com.ventaautos.LoginActivity"
+    android:orientation="vertical"
+    android:background="@drawable/gradient"
+    android:id="@+id/loginLayout">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="0dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/textview_style"
+        android:text="Sale Car" />
+
+    <EditText
+        android:id="@+id/editTextUser"
+        style="@style/editText_style"
+        android:drawableLeft="@drawable/ic_action_user"
+        android:hint="Usuario"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextPwd"
+        style="@style/editText_style"
+        android:drawableLeft="@drawable/ic_action_lock"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/buttonLogin"
+        style="@style/button_style"
+        android:layout_alignEnd="@+id/linearLayout"
+        android:layout_alignLeft="@+id/linearLayout"
+        android:layout_alignRight="@+id/linearLayout"
+        android:layout_alignStart="@+id/linearLayout"
+        android:layout_below="@+id/linearLayout"
+        android:text="Login"
+        android:onClick="onClickLogin"/>
+
+</LinearLayout>

@@ -1,0 +1,25 @@
+<resources>
+    <string name="txt_usuario">Usuario</string>
+    <string name="text_password">Password</string>
+    <string name="text_ogin">Login In</string>
+    <string name="btn_ingresar">Ingresar</string>
+    <string name="btn_nuevo">Nuevo</string>
+    <string name="draw_opciones">Opciones de Usuario</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="app_name">VentaAutos</string>
+    <string name="menu_account">Cuenta</string>
+    <string name="menu_vehiculos">Vehiculos</string>
+    <string name="menu_logout">Logout</string>
+    <string name="home">Home</string>
+    <!--Vehiculo-->
+    <string name="secuencial">Secuencial</string>
+    <string name="placa">Placa</string>
+    <string name="marca">Marca</string>
+    <string name="color">Color</string>
+    <string name="fecha">Fecha</string>
+    <string name="estado">Estado</string>
+    <string name="logo">Logo</string>
+
+</resources>
